@@ -2,6 +2,17 @@ Build a Responsive Grid CSS Website Layout From Scratch
 https://www.youtube.com/watch?v=moBhzSC455o
 https://codepen.io/bradtraversy/pen/gvMGyB
 
+https://www.pexels.com/
+https://www.pexels.com/search/web/
+https://www.pexels.com/photo/iphone-dark-notebook-pen-34140/
+
+https://www.pexels.com/search/business/
+https://www.pexels.com/photo/blackboard-business-chalkboard-concept-355988/
+
+https://fontawesome.com/
+https://fontawesome.com/start
+
+
 ####################################################################
 
 D:\react\cssgridbiz>git init

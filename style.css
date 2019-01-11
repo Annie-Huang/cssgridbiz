@@ -125,3 +125,19 @@ img {
 .top-box-b {
     grid-area: top-box-b;
 }
+
+/* Boxes */
+.boxes {
+    display: grid;
+    grid-gap: 20px;
+
+    /* This is an important concept:
+       When the screen is big, the four box will show as 1fr each.
+       But as soon as the page become small, e.g. 799px (<800px), the min size of 200px kicks in and make the 4th box into the next row.
+          However, when this happened, the top row will have 3 items and it will still evenly divided into 3 sections so each box occupy 1 sections.
+          And the 4th box in the second row will be the same size as the box in first row because they are all 1fr.
+       The same happens when the page becomes smaller e.g. 599px (<600px).
+       That is the trick to make this layout very powerful rather than keep having media query!!
+     */
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}

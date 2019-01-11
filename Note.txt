@@ -17,6 +17,10 @@ https://fontawesome.com/icons/chart-pie?style=solid
 https://docs.emmet.io/cheat-sheet/
 c + tab --> <!-- -->
 
+In css:
+ctrl + / --> /* */
+
+
 ####################################################################
 
 D:\react\cssgridbiz>git init

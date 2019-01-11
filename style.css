@@ -104,6 +104,20 @@ img {
     color: var(--light);
 }
 
+/* Top Box*/
+.top-box {
+    background: var(--primary);
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    box-shadow: var(--shadow);
+    padding: 1.5rem; /* I don't quite understand, why setting a bigger padding on top-box will push back the width of showcase? I thought the showcase width is set?? */
+}
+
+.top-box .price {
+    font-size: 2.5rem; /* Same question as the padding above, why can it push bask the show case width? */
+}
+
 .top-box-a {
     grid-area: top-box-a;
 }

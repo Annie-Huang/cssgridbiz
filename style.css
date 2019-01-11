@@ -78,6 +78,30 @@ img {
 /* Showcase */
 .showcase {
     grid-area: showcase;
+    min-height: 400px;
+    background: url(img/showcase.jpg);
+    background-size: cover; /* got value of auto, cover, contain */
+    background-position: center;
+    padding: 3rem;
+
+    /* Use flexbox to align within the element */
+    display: flex;
+    flex-direction: column;
+    align-items: start; /* Make the button smaller rather occupy the whole screen horizontally */
+    justify-content: center; /* Push the content down to align in the middle verifically */
+    box-shadow: var(--shadow);
+}
+
+.showcase h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+    color: var(--light);
+}
+
+.showcase p {
+    font-size: 1.3rem;
+    margin-top: 0;
+    color: var(--light);
 }
 
 .top-box-a {

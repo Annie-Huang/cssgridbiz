@@ -11,8 +11,11 @@ https://www.pexels.com/photo/blackboard-business-chalkboard-concept-355988/
 
 https://fontawesome.com/
 https://fontawesome.com/start
+https://fontawesome.com/icons?d=gallery&q=chart
+https://fontawesome.com/icons/chart-pie?style=solid
 
 https://docs.emmet.io/cheat-sheet/
+c + tab --> <!-- -->
 
 ####################################################################
 

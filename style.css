@@ -179,3 +179,35 @@ footer {
     text-align: center;
     padding: 1rem;
 }
+
+/* Media Queries */
+@media (max-width: 700px) {
+    .top-container {
+        /* ----------------------------------*/
+        /* |  showcase(1)  |  showcase(1)   |*/
+        /* |  top-box-a(1) |  top-box-b(1)  |*/
+        /* ----------------------------------*/
+        grid-template-areas:
+                'showcase showcase'
+                'top-box-a top-box-b';
+    }
+
+    .showcase h1 {
+        font-size: 2.5rem; /* From 4rem to 2.5rem */
+    }
+
+    .main-nav ul {
+        grid-template-columns: 1fr; /* From repeat(4, 1fr) to 1fr */
+    }
+
+    .info {
+        grid-template-columns: 1fr; /* From repeat(2, 1fr) to 1fr */
+    }
+
+    /* Make the button width the same as screen with small screen */
+    .info .btn {
+        display: block;
+        text-align: center;
+        margin: auto;
+    }
+}
